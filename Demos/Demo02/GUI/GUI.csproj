@@ -31,8 +31,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.0.0-preview4-19216-03" PrivateAssets="all" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="ServiceStack.Text" Version="5.5.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.0.0-preview3.19153.1" />
+    <PackageReference Include="ServiceStack.Text" Version="5.5.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.0.0-preview4.19216.2" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
