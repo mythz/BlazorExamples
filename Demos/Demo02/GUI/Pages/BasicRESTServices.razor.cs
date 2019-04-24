@@ -87,8 +87,7 @@ namespace GUI.Pages {
             //Logger.LogDebug($"Starting PostData");
             // Create the payload for the Post
             PostDataReqDTO postDataReqDTO = new PostDataReqDTO() { StringDataObject = dataToPost };
-            //Logger.LogDebug($"In OnInitAsync, postDataReqDTO: {postDataReqDTO}");
-            //Logger.LogDebug($"Calling PostJsonAsync<PostDataReqDTO> with PostDataReqDTO.StringDataObject: {dataToPost}");
+            //Logger.LogDebug($"Calling PostJsonAsync<PostDataReqDTO> with PostDataReqDTO.StringDataObject = {dataToPost}");
             PostDataRspDTO postDataRspDTO =
               await HttpClient.PostJsonAsync<PostDataRspDTO>("/PostData?format=json", postDataReqDTO);
             //Logger.LogDebug($"Returned from PostJsonAsync<PostDataRspDTO> with PostDataRspDTO.StringDataObject: {postDataRspDTO.StringDataObject}");
@@ -97,7 +96,7 @@ namespace GUI.Pages {
             //Logger.LogDebug($"Leaving PostData");
         }
         #endregion
-        #region Demo01
+        #region Demo02
         #region PostComplexDataAsString OnClick Handler
         public async Task PostComplexDataAsString()
         {

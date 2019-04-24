@@ -18,7 +18,7 @@ else
         <label for="DataReceivedFromPost">@labelForDataReceivedFromPost</label>
         <input type="text" class="form-control" id="DataReceivedFromPost" bind="@dataReceivedFromPost" />
     </div>
-    <button type="button" class="btn btn-default" onclick="@PostData">@labelForPostDataDataButton</button>
+    <button type="button" class="btn btn-primary" onclick="@PostData">@labelForPostDataDataButton</button>
     <hr />
     <p>@rspPostDataDumpText @rspPostDataDump </p>
     <!-- endregion Demo01 code-->
@@ -36,8 +36,8 @@ else
         <input type="text" class="form-control" id="ComplexDataDecimalData" bind="@reqComplexData.DecimalData" />
         <p>@reqComplexDataDumpText @reqComplexDataDump </p>
     </div>
-    <button type="button" class="btn btn-default" onclick="@PostComplexDataAsString">@labelForPostComplexDataAsStringButton</button>
-    <button type="button" class="btn btn-default" onclick="@PostComplexDataDictionaryAsString">@labelForPostComplexDataDictionaryAsStringButton</button>
+    <button type="button" class="btn btn-primary" onclick="@PostComplexDataAsString">@labelForPostComplexDataAsStringButton</button>
+    <button type="button" class="btn btn-primary" onclick="@PostComplexDataDictionaryAsString">@labelForPostComplexDataDictionaryAsStringButton</button>
     <p>@rspComplexDataAsStringDumpText @rspComplexDataAsStringDump </p>
     <p>@rspComplexDataAsStringDTODumpText @rspComplexDataAsStringDTODump </p>
     <p>@rspComplexDataDumpText @rspComplexDataDump </p>
@@ -46,7 +46,7 @@ else
     <!-- endregion Demo02 code -->
     <hr />
     <!-- region Demo03 code -->
-    <button type="button" class="btn btn-default" onclick="@PostComplexDataAsObject">@labelForPostComplexDataDataAsObjectButton</button>
+    <button type="button" class="btn btn-primary" onclick="@PostComplexDataAsObject">@labelForPostComplexDataDataAsObjectButton</button>
     <p>@rspComplexDataAsObjectDumpText @rspComplexDataAsObjectDump </p>
     <p>@rspComplexDataAsObjectDTODumpText @rspComplexDataAsObjectDTODump </p>
     <p>@rspComplexDataDictionaryAsObjectDumpText @rspComplexDataDictionaryAsObjectDump </p>
